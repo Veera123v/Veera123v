@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h1>Welcome to My Portfolio</h1>
+        <p>Hi, I'm Vallapuneni Veranarayana a passionate  Full Stack web developer| .</p>
+        <img src="veeraimg.jpeg" alt="Your Profile" class="profile-photo">
+    </section>
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I'm a web developer with expertise in HTML, CSS, and JavaScript. I have a passion for creating interactive and user-friendly websites.</p>
+        <h3>Skills</h3>
+        <ul>
+            <li>HTML, CSS, JavaScript</li>
+            <li>React, Node.js</li>
+            <li>Git, GitHub</li>
+        </ul>
+        
+    </section>
+    <section id="projects">
+        <h2>My Projects</h2>
+        <div class="project-grid">
+            <div class="project-card">
+                <h3>Project Title 1</h3>
+                <img src="project1.jpg" alt="Project 1 Screenshot">
+                <p>Description of Project 1.</p>
+                <a href="https://live-demo-link.com" target="_blank">View Demo</a>
+                <a href="https://github.com/yourrepo" target="_blank">View Code</a>
+            </div>
+            <div class="project-card">
+                <h3>Project Title 2</h3>
+                <img src="project2.jpg" alt="Project 2 Screenshot">
+                <p>Description of Project 2.</p>
+                <a href="https://live-demo-link.com" target="_blank">View Demo</a>
+                <a href="https://github.com/yourrepo" target="_blank">View Code</a>
+            </div>
+            <!-- Add more projects similarly -->
+        </div>
+    </section>
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form id="contact-form">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+    
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <button type="submit">Submit</button>
+        </form>
+        <p id="thank-you-message" style="display:none;">Thank you for reaching out!</p>
+    </section>
+    
+
+    <footer>
+        <p>&copy; 2024 [Your Name]. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
